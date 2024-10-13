@@ -5,8 +5,4 @@ This course is mainly made for computer science and technology students. However
 ## Update 
 Some of the content can be valuable for first year students for other majors such as the elementary chinese 1 and the pre-calculus, the linear algebra section too!
 
-You can buy me a coffee down here if you like this content!
-[buymeacoffee.com/elalamiimed](https://)
-
-
 You can also comment and suggest changes or specific ideas! 

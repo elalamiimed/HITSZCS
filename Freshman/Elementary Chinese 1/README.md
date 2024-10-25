@@ -1,3 +1,6 @@
-## Notes
+## ABOUT HOMEWORKS
 
-So basically what I am aiming here for, is to get pdf lessons from the chinese proffessors in order to help students revise and get ready for the examination. Because using some other knowledge might be overwhelming for students. And it also presents an advantage for the teacher to store their slides here and have an organized archive that they can tell students to visit in the future.
+Homeworks are different from one teacher to another, but it is mainly about writing and pronunciation. 
+So I can not provide information about it.
+However, if you want to improve your chinese I suggest to buy the "Intensive Chinese for Pre-university students" by the Beijing language and culture university press. 
+Unless you take a full year Chinese program and practice everyday, you won't be able to speak Chinese or understand properly.

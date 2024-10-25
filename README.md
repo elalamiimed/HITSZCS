@@ -1,5 +1,5 @@
 ## Harbin Institute of Technology (Shenzhen) Computer Science Course Guide | HITSZCS
-This project is inspired from [HITSZ-OPENCS](https://github.com/HITSZ-OpenCS).Made by [Mohamed El Alami](https://github.com/elalamiimed), under the guidance of the counselor for the 2024 undergraduate intern Mr Kochi ke.
+This project is inspired from [HITSZ-OPENCS](https://github.com/HITSZ-OpenCS).Made by [Mohamed El Alami](https://github.com/elalamiimed), under the guidance of the counselor for the 2024 undergraduate international students: Mr Kochi ke who is supporting this project.
 
 ## PREFACE
 As students, we dive into a wide range of courses throughout our university years. With each subject, we gather more than just knowledge—we accumulate resources, tips, and insights along the way.

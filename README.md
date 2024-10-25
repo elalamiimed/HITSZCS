@@ -36,4 +36,4 @@ My goal is to reduce the unnecessary detours, so that those who come after us ca
 
 ## LICENSE DETAILS
 For more details about the license, please make sure to read carefully.
-[Creative commons License](LICENSE)
+- [Creative commons License](LICENSE)

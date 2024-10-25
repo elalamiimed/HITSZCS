@@ -16,10 +16,11 @@ My goal is to reduce the unnecessary detours, so that those who come after us ca
 
 ## CONTENT  
 [Freshman](https://github.com/elalamiimed/HITSZCS/tree/main/Freshman)  
--Homeworks 
--Lessons 
--Tips 
--Pdf of books and study resources
+- Homeworks
+- Lessons
+- Tips
+- Pdf of books
+- Study resources
 
 ## VISION
 - Uphold and respect intellectual property rights, ensuring that all contributions align with ethical standards.

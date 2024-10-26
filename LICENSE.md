@@ -1,2 +1,2 @@
 CC-BY-NC-SA: Attribution-Non-Commercial-Share Alike 4.0 International License
-[Check Here](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[HITSZ](https://creativecommons.org/licenses/by-nc-sa/4.0/)

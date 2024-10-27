@@ -30,7 +30,7 @@ My goal is to reduce the unnecessary detours, so that those who come after us ca
 
 ## Contribution for the exam
 - Contributing to this repository is very appreciated, you are welcome to contribute whenever you can help.
-- Here is how you can [Contribute](https://github.com/elalamiimed/HITSZCS/blob/main/Contribution.md) for the exam, make sure to submit you contributions to this [email](Hitszcscontribution@proton.me)
+- Here is how you can [Contribute](https://github.com/elalamiimed/HITSZCS/blob/main/Contribution.md) for the exam, make sure to submit you contributions to this email: Hitszcscontribution@proton.me
 - To contribute succesfully look up the template above.
 - You can also contribute by providing content such as books, PPT slides, and other valuable content.
 - You can also suggest your own ideas that will help this project succeed.

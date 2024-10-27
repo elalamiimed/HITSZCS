@@ -1,4 +1,4 @@
-## Harbin Institute of Technology (Shenzhen) Computer Science Course Guide | HITSZCS
+ ## Harbin Institute of Technology (Shenzhen) Computer Science Course Guide | HITSZCS
 This project is inspired from [HITSZ-OPENCS](https://github.com/HITSZ-OpenCS).Made by [Mohamed El Alami](https://github.com/elalamiimed), under the guidance of the counselor for the 2024 undergraduate international students: Mr Kochi ke who is supporting this project.
 
 ## PREFACE
@@ -28,9 +28,12 @@ My goal is to reduce the unnecessary detours, so that those who come after us ca
 - Our goal is to support students by offering helpful resources and guidance, while standing firmly against any form of plagiarism.
 - This repository is and will remain a public, free, and open-source platform dedicated to the betterment of students, ensuring accessibility for everyone, always.
 
-## Contribution 
+## Contribution for the exam
 - Contributing to this repository is very appreciated, you are welcome to contribute whenever you can help.
-- Here is how you can [Contribute](https://github.com/elalamiimed/HITSZCS/blob/main/Contribution.md)
+- Here is how you can [Contribute](https://github.com/elalamiimed/HITSZCS/blob/main/Contribution.md) for the exam, make sure to submit you contributions to this [email](Hitszcscontribution@proton.me)
+- To contribute succesfully look up the template above.
+- You can also contribute by providing content such as books, PPT slides, and other valuable content.
+- You can also suggest your own ideas that will help this project succeed.
 
 ## WHY GITHUB AND NOT OTHER PLATFORMS
 - GitHub repositories are easy to use and more organized.

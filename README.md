@@ -28,9 +28,9 @@ My goal is to reduce the unnecessary detours, so that those who come after us ca
 - Our goal is to support students by offering helpful resources and guidance, while standing firmly against any form of plagiarism.
 - This repository is and will remain a public, free, and open-source platform dedicated to the betterment of students, ensuring accessibility for everyone, always.
 
-#Contribution 
-Contributing to this repository is very appreciated, you are welcome to contribute whenever you can help.
-Here is how you can [Contribute](https://github.com/elalamiimed/HITSZCS/blob/main/Contribution.md)
+## Contribution 
+- Contributing to this repository is very appreciated, you are welcome to contribute whenever you can help.
+- Here is how you can [Contribute](https://github.com/elalamiimed/HITSZCS/blob/main/Contribution.md)
 
 ## WHY GITHUB AND NOT OTHER PLATFORMS
 - GitHub repositories are easy to use and more organized.

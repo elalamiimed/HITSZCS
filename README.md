@@ -1,8 +1,8 @@
  ## Harbin Institute of Technology (Shenzhen) Computer Science Course Guide | HITSZCS
-This project is inspired from [HITSZ-OPENCS](https://github.com/HITSZ-OpenCS).Made by [Mohamed El Alami](https://github.com/elalamiimed), under the guidance of the counselor for the 2024 undergraduate international students: Mr Kochi ke who is supporting this project.
+This project is inspired from [HITSZ-OPENCS](https://github.com/HITSZ-OpenCS). Made by [Mohamed El Alami](https://github.com/elalamiimed), under the guidance of the counselor for the 2024 international computer science undergraduate students: Mr. Kochi Ke who is supporting this project.
 
 ## PREFACE
-As students, we dive into a wide range of courses throughout our university years. With each subject, we gather more than just knowledge—we accumulate resources, tips, and insights along the way.
+As students, we dive into a wide range of courses throughout our university years. With each subject, we gather more than just knowledge — we accumulate resources, tips, and insights along the way.
 
 Some of this comes from searching for materials online, like tracking down e-books or textbooks, often through trial and error. At times, it’s easy to find what we need, but other times it feels like a scavenger hunt, piecing things together from various corners of the web. Then there are the shared documents—past exams, notes, and advice—handed down from one generation of students to the next, circulating in tight-knit groups or through personal connections. And finally, there are the lessons we only realize after the fact, the strategies and shortcuts we wish we’d known earlier.
 
@@ -15,11 +15,11 @@ That’s why I started this project: to gather and centralize the resources and 
 My goal is to reduce the unnecessary detours, so that those who come after us can move forward more confidently.
 
 ## CONTENT  
-[Freshman](https://github.com/elalamiimed/HITSZCS/tree/main/Freshman)  
+[Freshmen](https://github.com/elalamiimed/HITSZCS/tree/main/Freshman)  
 - Homeworks
 - Lessons
 - Tips
-- Pdf of books
+- Textbook PDFs
 - Study resources
 
 ## VISION
@@ -31,15 +31,15 @@ My goal is to reduce the unnecessary detours, so that those who come after us ca
 ## Contribution for the exam
 - Contributing to this repository is very appreciated, you are welcome to contribute whenever you can help.
 - Here is how you can [Contribute](https://github.com/elalamiimed/HITSZCS/blob/main/Contribution.md) for the exam, make sure to submit you contributions to this email: Hitszcscontribution@proton.me
-- To contribute succesfully look up the template above.
+- To contribute succesfully, look up the template above.
 - You can also contribute by providing content such as books, PPT slides, and other valuable content.
 - You can also suggest your own ideas that will help this project succeed.
 
 ## WHY GITHUB AND NOT OTHER PLATFORMS
-- GitHub repositories are easy to use and more organized.
+- GitHub repositories are easy to use and very organized.
 - Git is very simple and with a couple of steps you can make a repository.
-- Most of computer science groups are separated so the information can not be shared in between.
-- Everyone can access to it and contribute to this project.
+- Most computer science groups are separated so the information can not be shared in between.
+- Everyone has access to it and can contribute to this project.
 
 ## LICENSE DETAILS
 For more details about the license, please make sure to read carefully.

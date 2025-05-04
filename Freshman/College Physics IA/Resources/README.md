@@ -1,1 +1,1 @@
-sharing some insights
+sharing small some insights

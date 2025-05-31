@@ -1,1 +1,0 @@
-sharing small some insights

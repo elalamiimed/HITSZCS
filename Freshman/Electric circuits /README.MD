@@ -1,3 +1,3 @@
-40% - Assignments and Attendance (+ maybe Quizzes)
+40% - Assignments
 
 60% - Final Exam

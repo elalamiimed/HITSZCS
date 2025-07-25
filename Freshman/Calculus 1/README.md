@@ -12,6 +12,8 @@ This course is an examination course (affects major ranking) accounting for 5 cr
 ## Tips 
 You are able to get full marks for the homework as long as you submit it fully and on time. 
 
-There are "Skill Practice" questions in the classes, if you are able to solve then basically you have mastered the topic/method. 
+There are "Skill Practice" questions in the classes, if you are able to solve them, then basically you have mastered the topic/method. 
+
+The exams are highly similar to the Model Papers given before the exam. You should be able to get full marks only from the PPT, the Textbook, and the Model Papers, or in other words, you do not have to be worried about anything outside of the classes. 
 
 Better not waste the professor's time with silly problems like the QR code scanning. 

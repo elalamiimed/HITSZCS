@@ -1,3 +1,6 @@
+The Slides folder contains all chapter slides
+The Misc folder contains the chapter guides, the mock exam, and some homework
+
 Quick List of Topics covered by the 2023 students with Professor HoKin:
 - Thermodynamics (Relatively little)
   - The three types of heat transfer, definition of heat, Latent Heat, Phase Change, Entropy

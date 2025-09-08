@@ -17,3 +17,6 @@ There are "Skill Practice" questions in the classes, if you are able to solve th
 The exams are highly similar to the Model Papers given before the exam. You should be able to get full marks only from the PPT, the Textbook, and the Model Papers, or in other words, you do not have to be worried about anything outside of the classes. 
 
 Better not waste the professor's time with silly problems like the QR code scanning. 
+
+
+Yalalt's Notes on Finals Chapters: https://deserted-face-a72.notion.site/CALCULUS-216c8748d4b180cfa5c2c5211e96c666?pvs=73

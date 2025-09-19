@@ -13,6 +13,14 @@ Quick List of Topics covered by the 2023 students with Professor HoKin:
   - Schrodinger's, Wave Function/Theory, Probability
 
 ## Update (Version 2.0)
-**Read Carefully**
+**Read Carefully** 
+
 Professors might change throughout the years, but the topics will be the same. So this content is useful for everyone. 
 The content is still in the process of update for the 2025 year, as some slides are missing, assignments and solutions still need to be added, if you have any helpful files, don't hesitate to share with us. 
+**The order of topics is as follows:**
+
+- Waves
+- Thermodynamics 
+- Optics
+- Quantum physics ( Aka Modern physics)
+

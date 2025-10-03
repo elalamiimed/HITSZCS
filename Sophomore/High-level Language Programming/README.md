@@ -11,4 +11,4 @@ These lecture materials were used by 2023 undergraduate students in this course.
 
 ### Update :
 - Please submit your homework to  : 25s151217@stu.hit.edu.cn
-- The submission status website is: [Submission Link](https://zhangmeishan.github.io/HLLP/main.html)
+- Every one can fetch course ppts through [Link](https://zhangmeishan.github.io/HLLP/main.html), checking the homework and labwork submission status through [Link](https://zhangmeishan.github.io/HLLP/homework.html) and [Link](https://zhangmeishan.github.io/HLLP/labwork.html)

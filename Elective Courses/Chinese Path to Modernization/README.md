@@ -2,7 +2,7 @@
 
 This course is an elective course accounting for 2 credits and 32 course hours. 
 
-30% Group Presentation (Guo Laoshi) & 70% Final Exam (Zhang Laoshi) 
+50% Group Presentation (Guo Laoshi) & 50% Report essay (Zhang Laoshi) 
 
 The course has several organised trips to companies and fields. 
 
@@ -14,7 +14,7 @@ As they are School of Mangement professors, there will be an opportunities to fu
 
 ## Tips 
 
-Pay careful attention to the slides because the Final Exam content will be entirely from the slides. Facts & figures will be very common in the questions. 
+Pay careful attention to the slides & Take notes. Zhang Laoshi will give you extra points if you send your notes together with the repport. And participate in class! Mr Zhang said to insert our picture with report so he values participation too.
 
 Take the chance to participate in the Research Competitions as they will not only give you valuable experience but also because participation and award in those type of competitions are regarded highly in China. 
 

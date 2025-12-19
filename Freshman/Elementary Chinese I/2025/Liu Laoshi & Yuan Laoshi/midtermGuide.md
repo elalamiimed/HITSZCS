@@ -1,3 +1,0 @@
-#Regarding the midterm, we were asked to write a text in either pinyin or hanzi or both (if you write hanzi you'll score better tho);
-#In This text we were asked to describe ourselves, our home town, our family members and their profession, and a typical dinner & dinner time;
-#In the end we presented this text orally in class to the teacher without looking at paper;

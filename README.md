@@ -48,6 +48,10 @@ If you’d like to help improve **HITSZCS**, please see the `Contribution.md` fi
 
 ---
 
+### Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=elalamiimed/HITSZCS&type=date&legend=top-left)](https://www.star-history.com/#elalamiimed/HITSZCS&type=date&legend=top-left)
+
 ### Further Help and Resources
 
 If you’re new to GitHub, these links can help you get started:

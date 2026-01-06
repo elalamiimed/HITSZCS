@@ -1,4 +1,4 @@
-# Updated Version 
+# Course Information
 
 ### Mid-term
 Chapters 1-10 (Mechanics) covered in the first half. The Mid Term Exam only covered mechanics. 

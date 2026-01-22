@@ -4,3 +4,6 @@ Email us at : Hitszcscontribution@proton.me
 Otherwise you can join our wechat groupchat by scanning the QR code below:
 
 <img src="JOINQR.jpg" alt="JOIN US" width="300">
+
+### Update
+You can share this with your friends too, everyone is welcome to joing Us

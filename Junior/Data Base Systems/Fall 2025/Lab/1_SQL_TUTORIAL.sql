@@ -1,0 +1,186 @@
+-- Integrated Script for Experiment 2 (Oracle)
+-- ===========================
+-- 0) (Optional) Environment connectivity check (for CDB/PDB setups)
+-- ===========================
+SELECT name, con_id, open_mode FROM v$pdbs WHERE open_mode = 'READ WRITE';
+-- If needed: ALTER SESSION SET CONTAINER = XEPDB1;  -- Only required when switching PDBs
+
+-- ===========================
+-- 1) Clean up existing tables with the same name
+-- ===========================
+BEGIN
+  EXECUTE IMMEDIATE 'DROP TABLE ORDERS_T CASCADE CONSTRAINTS';
+EXCEPTION WHEN OTHERS THEN NULL;
+END;
+/
+BEGIN
+  EXECUTE IMMEDIATE 'DROP TABLE CUSTOMER_T CASCADE CONSTRAINTS';
+EXCEPTION WHEN OTHERS THEN NULL;
+END;
+/
+
+-- ===========================
+-- 2) Create tables in one go
+-- ===========================
+-- CUSTOMER_Type examples: 'R' = Retail, 'W' = Wholesale, 'E' = Ecommerce, 'P' = Partner
+CREATE TABLE CUSTOMER_T (
+  CUSTOMERID         NUMBER(11,0)   NOT NULL,
+  CUSTOMERNAME       VARCHAR2(25)   NOT NULL,
+  CUSTOMERADDRESS    VARCHAR2(30),
+  CUSTOMERCITY       VARCHAR2(20),
+  CUSTOMERSTATE      CHAR(2),
+  CUSTOMERPOSTALCODE VARCHAR2(10),
+  CUSTOMER_TYPE      CHAR(1),
+  CONSTRAINT CUSTOMER_PK PRIMARY KEY (CUSTOMERID)
+);
+
+-- ===========================
+-- 3) Describe table structure and insert sample data
+-- ===========================
+DESC CUSTOMER_T;
+
+-- To stay consistent with the definition including CUSTOMER_Type,
+-- each sample insert explicitly provides a CUSTOMER_TYPE value.
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (1,  'Contemporary Casuals',      '1355 S Hines Blvd',   'Gainesville',    'FL', '32601-2871', 'R');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (2,  'Value Furniture',           '15145 S.W. 17th St.', 'Plano',          'TX', '75094-7743', 'W');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (3,  'Home Furnishings',          '1900 Allard Ave.',    'Albany',         'NY', '12209-1125', 'R');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (4,  'Eastern Furniture',         '1925 Beltline Rd.',   'Carteret',       'NJ', '07008-3188', 'P');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (5,  'Impressions',               '5585 Westcott Ct.',   'Sacramento',     'CA', '94206-4056', 'E');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (6,  'Furniture Gallery',         '325 Flatiron Dr.',    'Boulder',        'CO', '80514-4432', 'R');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (7,  'Period Furniture',          '394 Rainbow Dr.',     'Seattle',        'WA', '97954-5589', 'W');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (8,  'California Classics',       '816 Peach Rd.',       'Santa Clara',    'CA', '96915-7754', 'R');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (9,  'M and H Casual Furniture',  '3709 First Street',   'Clearwater',     'FL', '34620-2314', 'R');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (10, 'Seminole Interiors',        '2400 Rocky Point Dr.', 'Seminole',      'FL', '34646-4423', 'E');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (11, 'American Euro Lifestyles',  '2424 Missouri Ave N.', 'Prospect Park', 'NJ', '07508-5621', 'P');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (12, 'Battle Creek Furniture',    '345 Capitol Ave. SW', 'Battle Creek',   'MI', '49015-3401', 'W');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (13, 'Heritage Furnishings',      '66789 College Ave.',  'Carlisle',       'PA', '17013-8834', 'R');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (14, 'Kaneohe Homes',             '112 Kiowai St.',      'Kaneohe',        'HI', '96744-2537', 'R');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERCITY, CUSTOMERSTATE, CUSTOMERPOSTALCODE, CUSTOMER_Type)
+VALUES (15, 'Mountain Scenes',           '4132 Main Street',    'Ogden',          'UT', '84403-4432', 'W');
+-- Extra row for NULL-check practice:
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME) VALUES (16, 'Null Demo');
+INSERT INTO CUSTOMER_T (CUSTOMERID, CUSTOMERNAME) VALUES (17, 'Null Demo');
+
+
+
+-- ===========================
+-- 4) Basic single-table queries (reference SQL examples)
+-- ===========================
+-- Equality example: customers from state = 'TX'
+SELECT * FROM CUSTOMER_T WHERE CUSTOMERSTATE = 'TX';
+
+-- IN example: customers from ('HI','PA','MI')
+SELECT CUSTOMERID, CUSTOMERNAME, CUSTOMERSTATE
+FROM CUSTOMER_T
+WHERE CUSTOMERSTATE IN ('HI','PA','MI');
+
+-- Range example: customer IDs 7–12
+SELECT CUSTOMERID, CUSTOMERNAME FROM CUSTOMER_T WHERE CUSTOMERID BETWEEN 7 AND 12;
+
+-- NULL example: Type is NULL (if no NULL Type rows are inserted in class, test with ADDRESS IS NULL instead)
+SELECT CUSTOMERID, CUSTOMER_Type FROM CUSTOMER_T WHERE CUSTOMER_Type IS NULL;
+
+-- LIKE example: names starting with 'C'
+SELECT CUSTOMERID, CUSTOMERNAME FROM CUSTOMER_T WHERE CUSTOMERNAME LIKE 'C%';
+
+-- Case-insensitive containment: names containing 'gallery'
+SELECT CUSTOMERID, CUSTOMERNAME FROM CUSTOMER_T WHERE INSTR(UPPER(CUSTOMERNAME), 'GALLERY') > 0;
+
+-- DISTINCT example: all unique states
+SELECT DISTINCT CUSTOMERSTATE FROM CUSTOMER_T;
+
+-- Multi-column sorting: state ASC, city ASC, name DESC
+SELECT CUSTOMERID, CUSTOMERNAME, CUSTOMERCITY, CUSTOMERSTATE
+FROM CUSTOMER_T
+ORDER BY CUSTOMERSTATE ASC, CUSTOMERCITY ASC, CUSTOMERNAME DESC;
+
+-- Row limit: first 3 customers ordered by ID ASC
+SELECT CUSTOMERID, CUSTOMERNAME FROM CUSTOMER_T ORDER BY CUSTOMERID FETCH FIRST 3 ROWS ONLY;
+
+-- String function example: extract the first 5 digits of postal code (only show rows with non-null postal codes)
+SELECT CUSTOMERID, SUBSTR(CUSTOMERPOSTALCODE,1,5) AS ZIP5
+FROM CUSTOMER_T
+WHERE CUSTOMERPOSTALCODE IS NOT NULL;
+
+-- Self-check: current total number of rows
+SELECT COUNT(*) AS row_cnt FROM CUSTOMER_T;
+
+-- ===========================
+-- 5) Grouping and Aggregation (reference SQL examples)
+-- ===========================
+-- Total count
+SELECT COUNT(*) AS total_customers FROM CUSTOMER_T;
+
+-- Count by state (example)
+SELECT CUSTOMERSTATE, COUNT(*) AS cnt
+FROM CUSTOMER_T
+GROUP BY CUSTOMERSTATE
+ORDER BY cnt DESC, CUSTOMERSTATE;
+
+-- Count by city (show only those with count >= 2)
+SELECT CUSTOMERCITY, COUNT(*) AS cnt
+FROM CUSTOMER_T
+GROUP BY CUSTOMERCITY
+HAVING COUNT(*) >= 2
+ORDER BY cnt DESC, CUSTOMERCITY;
+
+-- Derived column grouping: top 3 by the first 5 digits of postal code
+SELECT SUBSTR(CUSTOMERPOSTALCODE,1,5) AS zip5, COUNT(*) AS cnt
+FROM CUSTOMER_T
+GROUP BY SUBSTR(CUSTOMERPOSTALCODE,1,5)
+ORDER BY cnt DESC
+FETCH FIRST 3 ROWS ONLY;
+
+-- Average and maximum length of names
+SELECT AVG(LENGTH(CUSTOMERNAME)) AS avg_len, MAX(LENGTH(CUSTOMERNAME)) AS max_len
+FROM CUSTOMER_T;
+
+-- Average name length by state (example threshold = 9)
+SELECT CUSTOMERSTATE, AVG(LENGTH(CUSTOMERNAME)) AS avg_len
+FROM CUSTOMER_T
+GROUP BY CUSTOMERSTATE
+HAVING AVG(LENGTH(CUSTOMERNAME)) >= 9
+ORDER BY avg_len DESC;
+
+-- ===========================
+-- 6) Foreign Key Demonstration
+-- ===========================
+BEGIN
+  EXECUTE IMMEDIATE 'DROP TABLE ORDERS_T CASCADE CONSTRAINTS';
+EXCEPTION WHEN OTHERS THEN NULL;
+END;
+/
+
+CREATE TABLE ORDERS_T (
+  ORDER_ID      NUMBER(10,0) PRIMARY KEY,
+  CUSTOMERID    NUMBER(11,0) NOT NULL,
+  ORDER_DATE    DATE         NOT NULL,
+  ORDER_AMOUNT  NUMBER(10,2) NOT NULL,
+  CONSTRAINT ORDERS_CUSTOMER_FK
+    FOREIGN KEY (CUSTOMERID) REFERENCES CUSTOMER_T(CUSTOMERID)
+);
+
+-- Success case: using an existing CUSTOMERID (e.g., 3)
+INSERT INTO ORDERS_T (ORDER_ID, CUSTOMERID, ORDER_DATE, ORDER_AMOUNT)
+VALUES (3001, 3, DATE '2024-05-20', 199.99);
+
+-- Failure case: using a non-existent CUSTOMERID (e.g., 99)
+INSERT INTO ORDERS_T (ORDER_ID, CUSTOMERID, ORDER_DATE, ORDER_AMOUNT)
+VALUES (3002, 99, DATE '2024-05-21', 88.00);
+
+-- Read-only check: confirm number of rows in ORDERS_T
+SELECT COUNT(*) AS orders_rows FROM ORDERS_T;

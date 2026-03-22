@@ -2,7 +2,8 @@
 
 This course is an examination course (affects major ranking) accounting for 5 credits and 80 course hours. 
 
-20% Homework + 30% Midterm (CH.2,3 & 4) + 50% Final (CH.5,7 & 8)
+2024-2025 Academic Year's Assessment: 20% Homework + 30% Midterm (Chapters: 2,3 & 4) + 50% Final (Chapters: 5, 7 & 8)
+Book: Thomas' Calculus 14th Edition by George B. Thomas, Joel R. Hass, Christopher Heil, Maurice D. Weir
 
 ## About the Teacher 
 - Professor Liang ZHENG: The professor is humourous and has great work ethic. His deep knowledge of the subject is shown through his meticulous way of teaching each topic/method within the subject. 
@@ -19,4 +20,4 @@ The exams are highly similar to the Model Papers given before the exam. You shou
 Better not waste the professor's time with silly problems like the QR code scanning. 
 
 
-Yalalt's Notes on Finals Chapters: https://deserted-face-a72.notion.site/CALCULUS-216c8748d4b180cfa5c2c5211e96c666?pvs=73
+Yalalt's Notes on Finals Chapters: https://deserted-face-a72.notion.site/CALCULUS-32bc8748d4b180818f7ed8e09e22b31f?pvs=74

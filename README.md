@@ -1,11 +1,3 @@
-# UPDATE 10-19-2026
-
-HITSZCS, under HSIYC, is expanding this repository to support students across all majors. While the repository has traditionally focused on Computer Science, we believe students from other disciplines should benefit from it too.
-
-We are currently adding lecture slides, course notes, and other learning resources for more majors. Contributions are welcome—if you have materials from your courses, please consider submitting them to help make this repository a valuable resource for everyone.
-
-
-
 # HITSZCS Repository
 
 Welcome to **HITSZCS**, a repository for class resources and information for students. Here you can access essential materials for your studies. If you're new to GitHub, don’t worry – this guide will help you find everything you need.
@@ -47,13 +39,20 @@ Please follow the instructions below to navigate GitHub and find key files in th
 
 ### Repository Structure
 
-The repository is organized by **academic year and course type** to help you find materials relevant to your stage of study:
+The repository is organized by **school, major, academic year, and course type** to help you find the materials most relevant to your studies:
+
+**By School and Major:**
+- **`College of AI/`**: Courses and resources for Artificial Intelligence
+- **`College of Future Studies/`**: Courses and resources for Future Studies and related disciplines
+- **`College of Informatics/`**: Courses and resources for Informatics and related disciplines
+- **`General Courses/`**: General education courses
+- **`Public Compulsories/`**: Public compulsory courses shared across majors
+- **`Elective Courses/`**: Optional courses available to students across majors
 
 **By Academic Year:**
 - **`Freshman/`**: First-year courses including Calculus, Linear Algebra, College Physics IA, Electric Circuits, Pre-Calculus, and introductory language courses
 - **`Sophomore/`**: Second-year courses including College Physics IB, Data Structures, Computer Networks, Probability & Statistics, and advanced language courses
 - **`Junior/`**: Third-year courses and advanced specializations
-- **`Elective Courses/`**: Optional courses available to all students
 
 **Curriculum Paths:**
 - **`Curriculum/`**: General curriculum information and guidelines
@@ -78,12 +77,12 @@ The repository is organized by **academic year and course type** to help you fin
    - On the main **HITSZCS** page, click on any folder or file name to view its contents. Files with a `.md` extension, like `README.md` or `AboutUs.md`, are Markdown files and will display directly on GitHub for easy reading.
 
 2. **Using the File Structure**:
-   - The repository is organized with folders for different academic years and courses. For example, the `Freshman/` folder contains resources specifically for first-year students. To view these, simply click on the folder.
+   - The repository is organized with folders for schools, majors, academic years, and courses. Open the folder that best matches your program, then browse to your academic year or course.
    - Within each course folder, you'll find organized subfolders for lectures, homework, exams, and more.
 
 3. **Finding Your Course**:
-   - Identify your academic year (Freshman, Sophomore, Junior)
-   - Find your specific course within that year's folder
+   - Identify your school, major, or shared course category
+   - Find your academic year and specific course
    - Look for the relevant subfolder (Slides, Homework, etc.)
 
 4. **Returning to the Main Page**:
@@ -102,9 +101,9 @@ To make the most of **HITSZCS**, here are some key files and folders you should 
 - **`Curriculum/README.md`**: Overview of the academic curriculum and course requirements
 
 **Main Course Folders:**
-- **`Freshman/`**: Resources for first-year students across all core courses
-- **`Sophomore/`**: Materials for second-year students and specialized courses
-- **`Junior/`**: Advanced courses and electives
+- **School and major folders**: Materials organized for specific disciplines and programs
+- **`Public Compulsories/`**: Shared core courses for students across majors
+- **Academic year folders**: Materials grouped by year where applicable
 - **`Elective Courses/`**: Optional and specialized courses
 - **`For International Students/`**: Dedicated support and resources for international and exchange students
 

@@ -1,3 +1,11 @@
+# UPDATE 10-19-2026
+
+HITSZCS, under HSIYC, is expanding this repository to support students across all majors. While the repository has traditionally focused on Computer Science, we believe students from other disciplines should benefit from it too.
+
+We are currently adding lecture slides, course notes, and other learning resources for more majors. Contributions are welcome—if you have materials from your courses, please consider submitting them to help make this repository a valuable resource for everyone.
+
+
+
 # HITSZCS Repository
 
 Welcome to **HITSZCS**, a repository for class resources and information for students. Here you can access essential materials for your studies. If you're new to GitHub, don’t worry – this guide will help you find everything you need.

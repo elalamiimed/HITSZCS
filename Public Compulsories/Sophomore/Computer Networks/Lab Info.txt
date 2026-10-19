@@ -1,0 +1,2 @@
+**Lab Information**
+You have 3 labs for this course, focusing on router/switch configuration, network protocols, and Wireshark. Information will be provided during the lab. 

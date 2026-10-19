@@ -52,7 +52,6 @@ The repository is organized by **school, major, academic year, and course type**
 **By Academic Year:**
 - **`Freshman/`**: First-year courses including Calculus, Linear Algebra, College Physics IA, Electric Circuits, Pre-Calculus, and introductory language courses
 - **`Sophomore/`**: Second-year courses including College Physics IB, Data Structures, Computer Networks, Probability & Statistics, and advanced language courses
-- **`Junior/`**: Third-year courses and advanced specializations
 
 **Curriculum Paths:**
 - **`Curriculum/`**: General curriculum information and guidelines

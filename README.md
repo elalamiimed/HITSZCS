@@ -1,5 +1,6 @@
 # HITSZCS Repository
 
+From CS students to CS students.
 Welcome to **HITSZCS**, a repository for class resources and information for students. Here you can access essential materials for your studies. If you're new to GitHub, don’t worry – this guide will help you find everything you need.
 
 ## Disclaimer

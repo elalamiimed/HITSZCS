@@ -24,3 +24,7 @@ The content is still in the process of update for the 2025 year, as some slides 
 - Optics
 - Quantum physics ( Aka Modern physics)
 
+
+## 📘 Study Materials by Academic Support
+
+Review slides, summaries and practice exams made by HSIYC Academic Support for this course: [AS Study Materials / Physics IB](../../../AS%20Study%20Materials/Physics%20IB)
